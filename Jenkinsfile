@@ -78,7 +78,7 @@ pipeline {
                 }
             }
         }
-        stage ('Execute Ansible Play - CD'){
+        /* stage ('Execute Ansible Play - CD'){
             agent {
                 label 'ansible'
             }
@@ -90,6 +90,6 @@ pipeline {
                     ansible-playbook -e vers=${BUILD_NUMBER} roles/site.yml
                 '''
             }
-        }
+        } */
     }
 }
