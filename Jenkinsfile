@@ -33,7 +33,7 @@ pipeline {
         stage("mvn build") {
             steps {
                 script {
-                    sh "mvn clean package"
+                    bat "mvn clean package"
                 }
             }
         }
