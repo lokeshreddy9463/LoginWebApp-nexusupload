@@ -78,6 +78,7 @@ pipeline {
                 }
             }
         }
+        
         /* stage ('Execute Ansible Play - CD'){
             agent {
                 label 'ansible'
